@@ -1,4 +1,4 @@
-# PYP / Day - 23
+# RFE204 / Booking App
 
 Table of Contents :
 
@@ -31,6 +31,7 @@ Main page should show floor plan, use uploaded svg file to show it. When cursor 
 4. Click the room should redirect to room details page where all the reservations should be shown in table
 5. I should be able to add new reservation inside room details page
 6. User should not be able to add reservation for busy range of date
+7. Create a Mock server to store reservation information (preferably Express app, bit you can use `json-server` as well)
 
 Reservation interface:
 ```typescript
@@ -53,15 +54,9 @@ interface IRoom {
 ```
 
 Stack should be used:
-1. Material UI
+1. Material UI or Ant Design (optional)
 2. Redux
 3. Typescript
 
----
 
-## Resources:
-
-- https://developer.mozilla.org/en-US/docs/Learn/Common_questions/How_does_the_Internet_work
-- https://youtu.be/x3c1ih2NJEg
-- https://www.smashingmagazine.com/2018/01/understanding-using-rest-api/
 
